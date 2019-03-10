@@ -4,6 +4,9 @@ version: 0.0.1
 author: shmy <914111374@qq.com>
 homepage: https://github.com/shmy/flutter_toasty
 
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
 dependencies:
   flutter:
     sdk: flutter
@@ -17,8 +20,6 @@ flutter:
     androidPackage: tech.shmy.toasty.toasty
     pluginClass: ToastyPlugin
 
-environment:
-  sdk: ">=1.19.0 <2.0.0"
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg
